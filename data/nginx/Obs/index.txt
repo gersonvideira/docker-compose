@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Box Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+
+        <!-- Css Link -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>CV</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Sr. Videira</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home bx-burt nav__icon"></i
+                                >Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#perfil" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#formacao" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Formação
+                                Académica
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                                <!-- recibo-->
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experiencia" class="nav__link">
+                                <i class="bx bx-briefcase nav__icon"></i
+                                >Experiência
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificacoes" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i
+                                >Certificações
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#referencia" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i
+                                >Referências
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-conatiner aux">
+            <!-- Adcionei a class aux para margin-->
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== Home ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img
+                                    src="./img/perfil.jpg"
+                                    alt=""
+                                    class="home__img"
+                                />
+                                <h1 class="home__title">
+                                    GERSON <strong>VIDEIRA</strong>
+                                </h1>
+                                <h3 class="home__profession">
+                                    DEVELOPER BACK-END
+                                </h3>
+                                <img
+                                    src="./img/angola.png"
+                                    alt=""
+                                    class="country_img"
+                                />
+
+                                <!-- Button to saved your CV in the pdf forder. Available -->
+                                <div>
+                                    <a
+                                        download=""
+                                        href="./pdf/CvGersonVideira.pdf"
+                                        class="home__button-movil"
+                                        >Download</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>
+                                    Centralidade do Kilamba, Bloco-L, Apt. 102
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    g.videira@hotmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i>
+                                    923448992, 951579669
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i
+                            class="bx bx-moon change-theme"
+                            title="theme"
+                            id="theme-button"
+                        ></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop -->
+
+                        <i
+                            class="bx bx-download generate-pdf"
+                            title="Generate PDF"
+                            id="resume-button"
+                        ></i>
+                    </section>
+
+                    <!-- Social -->
+                    <section class="social section">
+                        <h2 class="section-title">Rede Social</h2>
+                        <div class="social__container bd-grid">
+                            <a
+                                href="https://www.linkedin.com/in/gerson-videira-737010276/"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i
+                                    class="bx bxl-linkedin-square social__icon"
+                                ></i>
+                                @gersonvideira
+                            </a>
+                        </div>
+                        <!-- <div class="social__container bd-grid">
+                        <a href="https://facebook.com" target="_blank" class="social__link">
+                            <i class="bx bxl-facebook social__icon"></i> @sr.videira
+                        </a>
+                    </div> -->
+                        <div class="social__container bd-grid">
+                            <a
+                                href="https://github.com/Gersonvideira"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-github social__icon"></i>
+                                github.com/Gersonvideira
+                            </a>
+                        </div>
+
+                        <div class="social__container bd-grid">
+                            <a
+                                href="https://twitter.com/srvideira"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-twitter social__icon"></i>
+                                @sr.videira
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Profile -->
+                    <section class="profile section" id="perfil">
+                        <h2 class="section-title">Perfil</h2>
+
+                        <p class="profile__description">
+                            Rigoroso, pontual, capacidade para trabalhar em
+                            ambientes adversos, dinâmico, organizado e espírito
+                            de empatia
+                        </p>
+                    </section>
+
+                    <!-- Education -->
+                    <section class="education section" id="formacao">
+                        <h2 class="section-title">Formação Académica</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        ENGENHARIA INFORMÁTICA
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Universidade Técnica de Angola</span
+                                    >
+                                    <span class="education__year"
+                                        >2008 - 4º Ano Frequência</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        CONSTRUÇÃO CIVIL
+                                    </h3>
+                                    <span class="education__studies">
+                                        Instituto Médio Industrial de
+                                        Luanda</span
+                                    >
+                                    <span class="education__year">
+                                        2003 - 2007</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        ENSINO DE BASE IIIº NÍVEL
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Complexo Escolar do Cazenga</span
+                                    >
+                                    <span class="education__year"
+                                        >2001 - 2002</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        ENSINO DE BASE IIº NÍVEL
+                                    </h3>
+                                    <span class="education__studies"
+                                        >N´gola Kanini</span
+                                    >
+                                    <span class="education__year"
+                                        >2001 - 2002</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        ENSINO DE BASE Iº NÍVEL
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Escola 1º de Agosto</span
+                                    >
+                                    <span class="education__year"
+                                        >1994 - 1997</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Skills -->
+                    <section class="skills section baixar_skills" id="skills">
+                        <h2 class="section-title">CONHECIMENTOS</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Sass
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    TypeScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Nodejs
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe
+                                    Photoshop
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Adobe
+                                    Illustrator
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Redes
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Sistema
+                                    de controle de Acesso
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    Virtualização
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    Sistemas Linux
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>
+                                    Sistemas Microsoft
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="baixar_folha_skills"></div>
+                    </section>
+
+                    <!--! Muda a forma de apresentação do skills-->
+                    <!-- <section class="skills section" id="skills">
+                    <h2 class="section-title">CONHECIMENTOS</h2>
+                    <div class="skills__content bd-grid">
+                        <div class="skills__data barras">
+                            <div class="barra">
+                                <p>Html</p>
+                                <span></span> 
+                            </div>
+                            <div class="barra">
+                                <p>Css</p>
+                                <span></span> 
+                            </div>
+                            <div class="barra">
+                                <p>Sass</p>
+                                <span></span> 
+                            </div>
+                            <div class="barra">
+                                <p>JavaScript</p>
+                                <span></span> 
+                            </div>
+                            <div class="barra">
+                                <p>Nodejs</p>
+                                <span></span> 
+                            </div>
+                            <div class="barra">
+                                <p>Adobe Photoshop</p>
+                                <span></span> 
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                </div>
+                <div class="resume__right">
+                    <!-- Experience -->
+                    <section class="experience section" id="experiencia">
+                        <h2 class="section-title">Experiência</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Helpdesk</h3>
+                                    <span class="experience__company"
+                                        >Entre 2013 a 2014 | Tarso
+                                        Translate</span
+                                    >
+                                    <p class="experience__description">
+                                        Apoio técnico a de hardware e software,
+                                        instalação e administração do software
+                                        interno, Microsoft Office e sistemas
+                                        operativos windows
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Administrador Rede
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Entre 2014 a 2015 | Lamprint</span
+                                    >
+                                    <p class="experience__description">
+                                        Garantir a segurança e a privacidade da
+                                        rede, implementação de medidas de
+                                        segurança, instalação e configuração dos
+                                        sistemas operativos clientes e
+                                        servidores, Active Directory, File
+                                        System.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">
+                                        Técnico de Seguro
+                                    </h3>
+                                    <span class="experience__company"
+                                        >Entre 2016 a 2018 | Mundial
+                                        Seguro</span
+                                    >
+                                    <p class="experience__description">
+                                        Emissão de apólices de seguros
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Certificates -->
+
+                    <section class="certificate section" id="certificacoes">
+                        <h2 class="section-title">Certificações</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Excel Avançado (2017)
+                                </h3>
+                                <p class="certificates__description">
+                                    Frequentei com êxito o curso, com a duração
+                                    de 20 horas no período de 04 a 25 de
+                                    novembro de 2017, no centro de formação
+                                    Aliança.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Mediador de seguro (2016)
+                                </h3>
+                                <p class="certificates__description">
+                                    Frequentei com êxito o curso, com a duração
+                                    de 1 ano, o curso foi ministrado pela MOFP e
+                                    o teste final pela ARSEG.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Informática na óptica do utilizador (2002)
+                                </h3>
+                                <p class="certificates__description">
+                                    Frequentei com êxito o curso, com a duração
+                                    de 30 horas, no centro de formação
+                                    GESTINFOR.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- References -->
+                    <section class="references section" id="referencia">
+                        <h2 class="section-title">Referências</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle"
+                                    >Analista de sistema</span
+                                >
+                                <h3 class="references__title">
+                                    Eng. Jesue Mateus
+                                </h3>
+                                <ul class="references__contact">
+                                    <li>Tel. 927680693</li>
+                                    <li>jesuemateus@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle"
+                                    >Programador</span
+                                >
+                                <h3 class="references__title">
+                                    Eng. Euclides Feijó
+                                </h3>
+                                <ul class="references__contact">
+                                    <li>Tel. 928950911</li>
+                                    <li>euclidesfeijo@hotmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Languages -->
+
+                    <section class="languages section">
+                        <h2 class="section-title">Línguas</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>
+                                    Português
+                                </li>
+                                <li class="languades__name">
+                                    <span class="languages__circle"></span>
+                                    Inglês Intermédio
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="certificate section" id="objectivos">
+                        <h2 class="section-title">Objectivos</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <!-- <h3 class="certificate__title">Excel Avançado (2017)</h3> -->
+                                <p class="certificates__description">
+                                    Concluir a universidade, obter mais
+                                    experiência e conhecimento de maneira a
+                                    vencer os desafios profissionais
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Interests -->
+
+                    <section class="interests section baixar_interesses">
+                        <h2 class="section-title">Interesses</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Musica</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">Viagens</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-book interests__icon"></i>
+                                <span class="interests__name">Leitura</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                        <div class="baixar_folha_interesses">
+                            <div></div>
+                        </div>
+                    </section>
+                    <section class="interests section final"></section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Scrool Top -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!-- Html2PDF -->
+        <script src="./js/html2pdf.bundle.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
